@@ -1,0 +1,76 @@
+h1{
+    margin-left: 2rem;
+    font-weight: 400;/* dev101 ki boldness km krta h */
+}
+
+li{
+    list-style: none;
+    margin-right: 1rem;
+    margin-left: 2rem;/* gives margin between html css and javascript */
+    padding-top: 0.5rem;/* keeps dev 101 and html css js in line */
+    font-size: 1.3rem;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: black;/* a:vivted means when we have visited the link it turns into respective color */
+}
+
+a:hover{
+    color: blue;  /* when we put cursor on link it turns blue */
+}
+
+.navbar>nav{      /*navbar class k andar nav tag m krna h edit*/
+    display: flex;     /*flex k krn DEV101 k Parallel aajayega html css and js*/
+    justify-content: space-between;   /*this will move html css js to the right most side*/
+}
+
+.navbar>nav>ul{
+    display: flex;
+    /*align-items: right;*/
+    /*justify-content: space-between;*/
+}
+
+img[src="images/lap.png"]{
+    height:100vh;
+    width:95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+/*.welcomeImage>img{
+    height: 800px;
+    width: 1200px;
+}*/      
+
+.content{
+    display: flex;
+    margin-top: 2.5vw;
+}
+
+.content>div{
+    width: 30vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    text-align: center;
+    margin-top: 1rem;/* gives gap between laptop image and content */
+}
+
+.content>div>p{
+    padding: 1rem; /* gives padding between html css javasrcript and their respective content */
+}
+
+.footer{
+    /*height: 80px;*/
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.footer>p{
+    font-size: 15px;
+}
